@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Mountains+of+Christmas:wght@700&family=Nosifer&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body
+    class="border-t-24 border-lime-600 bg-[url('../assets/images/fondo_fantasma.png')] bg-cover bg-center bg-no-repeat bg-fixed">
+    <!--Animacion fantasmas-->
+    <div class="fixed inset-0 pointer-events-none z-50 ">
+        <img src="../assets/images/ghost.png" class="absolute top-1/2 left-1/2 w-24 animate-disperse-1" alt="">
+        <img src="../assets/images/ghost.png" class="absolute top-1/2 left-1/2 w-24 animate-disperse-2" alt="">
+        <img src="../assets/images/ghost.png" class="absolute top-1/2 left-1/2 w-24 animate-disperse-3" alt="">
+        <img src="../assets/images/ghost.png" class="absolute top-1/2 left-1/2 w-24 animate-disperse-4" alt="">
+        <img src="../assets/images/ghost.png" class="absolute top-1/2 left-1/2 w-24 animate-disperse-5" alt="">
+        <img src="../assets/images/ghost.png" class="absolute top-1/2 left-1/2 w-24 animate-disperse-6" alt="">
+        <img src="../assets/images/ghost.png" class="absolute top-1/2 left-1/2 w-24 animate-disperse-7" alt="">
+        <img src="../assets/images/ghost.png" class="absolute top-1/2 left-1/2 w-24 animate-disperse-8" alt="">
+    </div>
+    <!--Container Main-->
+    <main class="max-w-350 mx-auto px-6 py-12  bg-blue-950/70 rounded-3xl m-10">
+
+        <h1 class="font-nosifer text-lime-500 text-4xl md:text-7xl mb-16 drop-shadow-lg drop-shadow-black text-center">
+            Salón de los Fantasmas
+        </h1>
+        <!--Texto-->
+        <section class="mb-20">
+
+            <p class="font-quicksand text-white text-xl md:text-2xl  max-w-4xl mx-auto text-center">
+                Bienvenidos al corazón social de la Mansión Ribera. Aquí los muros no solo tienen oídos, tienen
+                <span class="text-lime-400 font-boldt">memoria eterna</span> y una tendencia
+                preocupante a susurrar secretos de invitados que nunca llegaron a marcharse del todo.
+                Tome asiento en uno de nuestros divanes victorianos —con cuidado de no importunar a algún duque
+                invisible—
+                y disfrute de la brisa gélida que atraviesa las paredes. No se alarme por las sombras que bailan en las
+                esquinas;
+                son solo antiguos residentes practicando su vals infinito en una fiesta que terminó hace tres siglos.
+            </p>
+
+        </section>
+        <!--Tabla/tarjetas-->
+        <section class="mb-20">
+            <h2 class="font-nosifer text-lime-400 text-2xl mb-8 text-center">Guía de Avistamientos</h2>
+              <!--Tabla-->
+            <article class="hidden lg:block">
+                <table class="w-full font-quicksand text-white rounded-xl  table-auto bg-black/40 border-separate border-spacing-2 border border-lime-900/50">
+                    <thead class="bg-lime-900/50 text-lime-200 ">
+                        <tr>
+                            <th class="p-5 text-left rounded-xl">Entidad</th>
+                            <th class="p-5 text-center rounded-xl">Peligro</th>
+                            <th class="p-5 text-left rounded-xl">Naturaleza</th>
+                            <th class="p-5 text-left rounded-xl">Manifestación Común</th>
+                        </tr>
+                    </thead>
+                    <tbody class=" divide-lime-900/30 ">
+                        <tr class="">
+                            <td class="p-5 font-bold text-lime-400">Ectoplasma Residual</td>
+                            <td class="p-5 text-center text-blue-400">Nulo</td>
+                            <td class="p-5 text-gray-300">Rastro de energía viscosa sin conciencia.</td>
+                            <td class="p-5 italic text-sm">Manchas verdes que brillan y huelen a malvavisco quemado.
+                            </td>
+                        </tr>
+                        <tr class="">
+                            <td class="p-5 font-bold text-lime-400">Poltergeist Clase III</td>
+                            <td class="p-5 text-center text-orange-400">Medio</td>
+                            <td class="p-5 text-gray-300">Espíritu ruidoso con fijación por la cubertería.</td>
+                            <td class="p-5 italic text-sm">Vajilla voladora y portazos rítmicos a las 3:00 AM.</td>
+                        </tr>
+                        <tr class="">
+                            <td class="p-5 font-bold text-lime-400">Sombra Acechante</td>
+                            <td class="p-5 text-center text-red-600 font-bold">¡ALTO!</td>
+                            <td class="p-5 text-gray-300">Entidad vacía que absorbe la temperatura ambiente.</td>
+                            <td class="p-5 italic text-sm">Escalofríos súbitos y la sensación de ser observado
+                                fijamente.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+            <!--Tarjetas-->
+            <div class="lg:hidden flex  justify-center gap-6 pb-8 flex-wrap text-center">
+                <article class="w-3xl   bg-black/60  p-6 rounded-xl ">
+                    <p class="text-blue-400 text-xs font-bold ">Peligro: Nulo</p>
+                    <h3 class="font-jolly text-3xl text-lime-400 mt-2">Ectoplasma Residual</h3>
+                    <p class="font-quicksand text-gray-300 my-4 text-sm">Rastro de energía viscosa sin conciencia
+                        propia.</p>
+                    <p class="bg-blue-900/20 p-3 rounded italic text-xs text-blue-200">
+                        "Manchas verdes que brillan en la oscuridad."
+                    </p>
+                </article>
+                <article class="w-3xl   bg-black/60  p-6 rounded-xl ">
+                    <p class="text-orange-400 text-xs font-bold ">Peligro: Medio</p>
+                    <h3 class="font-jolly text-3xl text-lime-400 mt-2">Poltergeist Clase III</h3>
+                    <p class="font-quicksand text-gray-300 my-4 text-sm">Espíritu ruidoso con una fijación insana por la
+                        cubertería de plata.</p>
+                    <p class="bg-orange-400/20 p-3 rounded italic text-xs text-orange-200">
+                        Vajilla voladora y portazos rítmicos a las 3:00 AM. </p>
+                </article>
+                <article class="w-3xl   bg-black/60  p-6 rounded-xl ">
+                    <p class="text-red-600 text-xs font-bold ">Peligro: ¡ALTO!</p>
+                    <h3 class="font-jolly text-3xl text-lime-400 mt-2">Sombra Acechante</h3>
+                    <p class="font-quicksand text-gray-300 my-4 text-sm">Entidad de oscuridad pura que absorbe todo el
+                        calor de la habitación.</p>
+                    <p class="bg-red-900/20  p-3 rounded italic text-xs text-blue-200">
+                        "Escalofríos y susurros tras la nuca."
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        
+
+          <section class="text-center pb-32 mt-24 flex flex-col items-center">
+            <h3 class="font-nosifer text-red-700 text-xl mb-4 ">Aviso Legal</h3>
+            <p class="font-quicksand text-gray-400 text-sm italic  w-1/2">
+                "¿Sientes un escalofrío recorriendo tu espalda? No es la corriente. Es solo un residente cruzando tu
+                alma para ir a la cocina. Por favor, mantenga sus constantes vitales en el interior del cuerpo en todo
+                momento."
+            </p>
+        </section>
+
+        <footer class="w-full flex justify-between align-middle ">
+            <a href="./banderas.html" class="font-quicksand text-3xl text-amber-300 hover:text-white transition-colors">
+                <i class="fa-solid fa-angle-left"></i> Salir al Hall
+            </a>
+            <p
+                class="font-quicksand text-amber-300 text-md pt-4 hidden   sm:inline-block sm:align-middle ">
+                Mansión Ribera - Salon de los fantasmas
+            </p>
+        </footer>
+    </main>
+</body>
+
+</html>

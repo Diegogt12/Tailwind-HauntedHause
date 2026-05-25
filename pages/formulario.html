@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&family=Mountains+of+Christmas:wght@400;700&family=Nosifer&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div
+        class="bg-[url('../assets/images/fondo_papiro.jpg')] bg-cover bg-center bg-no-repeat bg-fixed min-h-screen w-full">
+        <div class=" flex flex-col items-center p-6">
+
+            <header class="w-full max-w-2xl mb-8">
+                <a href="./banderas.html" class="font-jolly text-2xl text-amber-200 hover:text-white ">
+                    <i class="fa-solid fa-angle-left"></i> Volver al Hall Principal
+                </a>
+            </header>
+
+            <main>
+
+                <div class=" 
+                bg-[url('../assets/images/papiro.png')] md:bg-[url('../assets/images/papiro_ancho.jpg')] 
+                bg-[size:100%_100%] bg-no-repeat px-32 pb-18 pt-11">
+
+                    <form class="flex flex-col px-12 pt-28 pb-16 md:px-24 md:pt-20 md:pb-20">
+
+                        <div class="mb-6 text-center">
+                            <h2 class="font-nosifer text-amber-950 text-base md:text-2xl mt-4 ">
+                                Escribe tu Historia
+                            </h2>
+                            <p class="font-christmas text-amber-900 text-sm md:text-lg ">
+                                Si te atreves a recordarla...
+                            </p>
+                        </div>
+
+                        <div class="flex flex-col gap-y-4">
+
+                            <div class="space-y-3">
+                                <input type="text" name="name" placeholder="Tu Nick maldito"
+                                    class="campo-papiro text-sm" required>
+                                <input type="email" name="email" placeholder="Correo de contacto"
+                                    class="campo-papiro text-sm" required>
+                                <input type="text" name="miedo" placeholder="¿Tu mayor miedo?"
+                                    class="campo-papiro text-sm" required>
+                            </div>
+
+                            <div class="flex flex-col pt-2">
+                                <span class="font-jolly font-bold text-amber-950 text-3xl  mb-2">Senda
+                                    de la historia:</span>
+                                <div class="flex align-middle gap-4">
+                                    <label class="radio ">
+                                        <input type="radio" name="tipo" value="fantasmas" class="accent-amber-950"
+                                            checked>
+                                        Fantasmas
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" name="tipo" value="brujas" class="accent-amber-950"> Brujas
+                                    </label>
+                                    <label class="radio">
+                                        <input type="radio" name="tipo" value="vampiros" class="accent-amber-950">
+                                        Vampiros
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div>
+                                <textarea name="historia" placeholder="Narra aquí los hechos..."
+                                    class="campo-papiro min-h-32 text-sm mt-1" required></textarea>
+                            </div>
+
+                            <div>
+                                <label class="radio">
+                                    <input type="checkbox" name="terminos" class=" accent-amber-950 " required>
+                                    <span>Acepto que mi alma y mi relato pertenezcan a la Mansión Ribera.</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="mt-8 flex justify-center">
+                            <button type="submit" class="bg-amber-950 text-amber-100 font-jolly text-xl md:text-3xl px-8 py-1 
+                                           rounded-sm shadow-lg hover:bg-black  border-b-2 border-amber-900">
+                                Sellar el Pacto
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+            </main>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
