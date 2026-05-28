@@ -1,1 +1,4 @@
-<video src="assets/Tailwind_Video.mp4" autoplay loop muted width="100%"></video>
+Demo :
+https://diegogt12.github.io/Tailwind-HauntedHause/
+
+
